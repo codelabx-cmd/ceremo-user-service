@@ -16,3 +16,7 @@ spring:
 
 server:
   port: 8080
+
+jwt:
+  secret: ceremo-secret-key-for-development-only-change-later-123456789
+  expiration: 86400000
